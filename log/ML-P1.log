@@ -1,0 +1,35 @@
+KNN ZP Cross-Validation 2024-11-11 13:11:07
+params : n = 3
+score : 0.9863
+
+SVC ZH Cross-Validation 2024-11-11 13:33:39
+params : c = 10, gamma = 0.1
+score : 0.9785208333333333
+
+XGB Z Cross-Validation 2024-11-11 14:39:54
+params : default
+score : 0.9863083333333335
+
+CatBoost Z Cross-Validation 2024-11-11 16:02:13
+params : iterations = 200, learning_rate = 0.1
+score : 0.9735458333333333
+
+Random Forest ZP Cross-Validation 2024-11-11 17:26:34
+params : n = 100, d = 10
+score : 0.9253041666666666
+
+Random Forest ZP GridSearch 2024-11-11 17:37:08
+params : {'max_depth': 10, 'n_estimators': 200}
+score : 0.9258166666666666
+
+Random Forest ZP GridSearch 2024-11-11 18:31:14
+params : {'max_depth': 50, 'n_estimators': 500}
+score : 0.9714083333333333
+
+Random Forest Z GridSearch 2024-11-11 21:56:24
+params : {'max_depth': 50, 'n_estimators': 500}
+score : 0.9806958333333333
+
+Random Forest Z GridSearch 2024-11-11 23:37:23
+params : {'max_depth': 100, 'n_estimators': 1000}
+score : 0.9808875

@@ -1,0 +1,33 @@
+
+
+KNN O GridSearch 2024-11-27 22:04:32
+params : {'n_neighbors': 1}
+score : 0.9816291666666667
+
+KNN H GridSearch 2024-11-27 22:09:57
+params : {'n_neighbors': 5}
+score : 0.9545291666666667
+
+KNN P GridSearch 2024-11-27 22:12:59
+params : {'n_neighbors': 3}
+score : 0.9845541666666667
+
+KNN HP GridSearch 2024-11-27 22:20:25
+params : {'n_neighbors': 3}
+score : 0.9846750000000001
+
+KNN HP Cross-Validation 2024-11-27 22:21:28
+params : n = 3
+score : 0.9863375
+
+Random Forest HP GridSearch 2024-11-27 23:36:54
+params : {'max_depth': 50, 'n_estimators': 500}
+score : 0.9761208333333334
+
+Random Forest HP Cross-Validation 2024-11-27 23:43:26
+params : n_estimators = 100, max_depth = 10
+score : 0.9476166666666668
+
+Random Forest HP Cross-Validation 2024-11-28 00:22:44
+params : n_estimators = 500, max_depth = 50
+score : 0.9774125

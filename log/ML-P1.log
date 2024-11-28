@@ -33,3 +33,238 @@ score : 0.9806958333333333
 Random Forest Z GridSearch 2024-11-11 23:37:23
 params : {'max_depth': 100, 'n_estimators': 1000}
 score : 0.9808875
+
+XGB Z Cross-Validation 2024-11-13 12:52:02
+params : n_estimators = 200, max_depth = 10, learning_rate = 0.1, subsample = 1.0, colsample_bytree = 1.0
+score : 0.9862791666666666
+
+XGB Z Cross-Validation 2024-11-13 15:35:06
+params : n_estimators = 200, max_depth = 6, learning_rate = 0.2, subsample = 0.8, colsample_bytree = 0.8
+score : 0.9887
+
+XGB Z Cross-Validation 2024-11-13 17:58:08
+params : n_estimators = 200, max_depth = 6, learning_rate = 0.2, subsample = 0.8, colsample_bytree = 0.8
+score : 0.9887
+
+XGB Z Cross-Validation 2024-11-13 19:16:18
+params : n_estimators = 200, max_depth = 10, learning_rate = 0.2, subsample = 0.6, colsample_bytree = 0.8
+score : 0.9881875000000001
+
+CatBoost Z GridSearch 2024-11-13 21:44:44
+params : {'iterations': 300, 'learning_rate': 0.2}
+score : 0.9760583333333334
+
+XGB NHPC Cross-Validation 2024-11-14 14:36:23
+params : n_estimators = 200, max_depth = 10, learning_rate = 0.2, subsample = 0.8, colsample_bytree = 0.8
+score : 0.9893625
+
+XGB NHPC GridSearch 2024-11-14 15:53:17
+params : {'colsample_bytree': 0.8, 'learning_rate': 0.2, 'max_depth': 6, 'n_estimators': 200, 'subsample': 0.8}
+score : 0.989475
+
+Logistic Regression ZP Cross-Validation 2024-11-14 16:27:23
+params : max_iter = 100
+score : 0.9289708333333333
+
+Logistic Regression Z Cross-Validation 2024-11-14 16:30:12
+params : max_iter = 100
+score : 0.9289708333333333
+
+XGB NHPC GridSearch 2024-11-14 21:33:08
+params : {'colsample_bytree': 0.6, 'learning_rate': 0.2, 'max_depth': 6, 'n_estimators': 500, 'subsample': 0.8}
+score : 0.9904875000000001
+
+XGB NHPC Cross-Validation 2024-11-14 23:22:22
+params : n_estimators = 500, max_depth = 6, learning_rate = 0.2, subsample = 0.8, colsample_bytree = 0.6
+score : 0.9912458333333334
+
+XGB ZNHPC Cross-Validation 2024-11-14 23:46:47
+params : n_estimators = 500, max_depth = 6, learning_rate = 0.2, subsample = 0.8, colsample_bytree = 0.6
+score : 0.9912458333333334
+
+KNN ZNHPC Cross-Validation 2024-11-14 23:50:11
+params : n = 5
+score : 0.9870291666666666
+
+KNN ZNHPC Cross-Validation 2024-11-14 23:52:07
+params : n = 7
+score : 0.9859375
+
+KNN ZNHPC Cross-Validation 2024-11-14 23:54:43
+params : n = 3
+score : 0.9870291666666666
+
+SVC ZH GridSearch 2024-11-15 07:46:34
+params : {'C': 10, 'gamma': 1, 'kernel': 'rbf'}
+score : 0.9774333333333334
+
+SVC ZH Cross-Validation 2024-11-15 12:04:06
+params : C = 10, gamma = 0.1
+score : 0.9785208333333333
+
+KNN ZP GridSearch 2024-11-15 12:07:32
+params : {'n_neighbors': 3}
+score : 0.984575
+
+KNN ZP Cross-Validation 2024-11-15 12:08:00
+params : n = 3
+score : 0.9862125
+
+KNN ZNHPC Cross-Validation 2024-11-15 12:09:14
+params : n = 3
+score : 0.9870708333333333
+
+Random Forest ZP GridSearch 2024-11-15 13:03:50
+params : {'max_depth': 50, 'n_estimators': 500}
+score : 0.9717333333333333
+
+Random Forest ZP Cross-Validation 2024-11-15 13:42:40
+params : n_estimators = 100, max_depth = 10
+score : 0.9250458333333332
+
+XGB NHPC GridSearch 2024-11-15 18:32:35
+params : {'colsample_bytree': 0.6, 'learning_rate': 0.2, 'max_depth': 6, 'n_estimators': 500, 'subsample': 0.6}
+score : 0.9904208333333333
+
+==== 2024-11-15 21:20:32 ====
+
+
+XGB NHPC Cross-Validation 2024-11-15 21:29:29
+params : n_estimators = 500, max_depth = 6, learning_rate = 0.2, subsample = 0.6, colsample_bytree = 0.6
+score : 0.9913124999999999
+
+XGB ZNHPC Cross-Validation 2024-11-15 21:40:29
+params : n_estimators = 500, max_depth = 6, learning_rate = 0.2, subsample = 0.8, colsample_bytree = 0.6
+score : 0.9912791666666667
+
+XGB ZNHPC Cross-Validation 2024-11-15 21:57:20
+params : n_estimators = 500, max_depth = 6, learning_rate = 0.2, subsample = 0.8, colsample_bytree = 0.6
+score : 0.9905125
+
+SVC ZH Cross-Validation 2024-11-16 00:19:40
+params : C = 10, gamma = 0.1
+score : 0.9785208333333333
+
+KNN ZP GridSearch 2024-11-16 00:22:39
+params : {'n_neighbors': 3}
+score : 0.9845416666666665
+
+KNN ZP Cross-Validation 2024-11-16 00:23:05
+params : n = 3
+score : 0.9862208333333333
+
+KNN ZNHPC Cross-Validation 2024-11-16 00:24:08
+params : n = 3
+score : 0.9870458333333332
+
+Random Forest ZP Cross-Validation 2024-11-16 00:28:33
+params : n_estimators = 100, max_depth = 10
+score : 0.9244833333333332
+
+XGB Z Cross-Validation 2024-11-16 00:46:48
+params : default
+score : 0.9863083333333335
+
+XGB Z Cross-Validation 2024-11-16 01:37:28
+params : n_estimators = 200, max_depth = 6, learning_rate = 0.2, subsample = 0.8, colsample_bytree = 0.8
+score : 0.9887
+
+XGB NHPC Cross-Validation 2024-11-16 12:55:34
+params : n_estimators = 500, max_depth = 6, learning_rate = 0.2, subsample = 0.6, colsample_bytree = 0.6
+score : 0.9912583333333334
+
+XGB ZNHPC Cross-Validation 2024-11-16 13:06:43
+params : n_estimators = 500, max_depth = 6, learning_rate = 0.2, subsample = 0.6, colsample_bytree = 0.6
+score : 0.9904833333333333
+
+XGB ZNHPC Cross-Validation 2024-11-16 13:17:50
+params : n_estimators = 500, max_depth = 6, learning_rate = 0.2, subsample = 0.8, colsample_bytree = 0.6
+score : 0.9907041666666666
+
+CatBoost Z Cross-Validation 2024-11-16 14:33:01
+params : iterations = 200, learning_rate = 0.1
+score : 0.9735458333333333
+
+SGD Z GridSearch 2024-11-16 18:28:34
+params : {'max_iter': 100, 'tol': 1e-05}
+score : 0.9142125
+
+SGD Cross-Validation 2024-11-16 18:30:42
+params : max_iter = 5, tol = None
+score : 0.8844583333333335
+
+Logistic Regression Z GridSearch 2024-11-16 18:34:59
+params : {'C': 1, 'max_iter': 100}
+score : 0.9354458333333334
+
+Logistic Regression Z Cross-Validation 2024-11-16 18:35:48
+params : max_iter = 100
+score : 0.9292624999999999
+
+XGB NHPC Cross-Validation 2024-11-16 18:46:54
+params : n_estimators = 500, max_depth = 6, learning_rate = 0.2, subsample = 0.8, colsample_bytree = 0.6
+score : 0.9912458333333334
+
+KNN ZP Cross-Validation 2024-11-18 21:31:14
+params : n = 3
+score : 0.8824624999999999
+
+KNN ZP GridSearch 2024-11-18 21:37:53
+params : {'n_neighbors': 8}
+score : 0.8849916666666666
+
+KNN HP Cross-Validation 2024-11-25 17:36:09
+params : n = 3
+score : 0.9863375
+
+KNN HP Cross-Validation 2024-11-25 17:39:00
+params : n = 3
+score : 0.9863291666666667
+
+KNN HP Cross-Validation 2024-11-25 17:43:22
+params : n = 3
+score : 0.9863375
+
+KNN HP GridSearch 2024-11-25 17:52:55
+params : {'n_neighbors': 3}
+score : 0.9846750000000001
+
+XGB HP Cross-Validation 2024-11-25 18:09:32
+params : n_estimators = 500, max_depth = 6, learning_rate = 0.2, subsample = 0.8, colsample_bytree = 0.6
+score : 0.9907291666666668
+
+KNN H GridSearch 2024-11-25 18:26:45
+params : {'n_neighbors': 5}
+score : 0.9545291666666667
+
+KNN P GridSearch 2024-11-25 18:29:59
+params : {'n_neighbors': 3}
+score : 0.9845541666666667
+
+Random Forest HP Cross-Validation 2024-11-25 18:50:17
+params : n_estimators = 100, max_depth = 10
+score : 0.9475208333333333
+
+KNN H GridSearch 2024-11-26 10:49:15
+params : {'n_neighbors': 5}
+score : 0.9545291666666667
+
+XGB NHPC Cross-Validation 2024-11-26 11:12:44
+params : n_estimators = 500, max_depth = 6, learning_rate = 0.2, subsample = 0.6, colsample_bytree = 0.6
+score : 0.9906416666666665
+
+KNN O GridSearch 2024-11-26 14:09:08
+params : {'n_neighbors': 1}
+score : 0.9816291666666667
+
+Random Forest HP Cross-Validation 2024-11-27 11:21:09
+params : n_estimators = 500, max_depth = 50
+score : 0.977425
+
+XGB HP Cross-Validation 2024-11-27 12:03:43
+params : n_estimators = 500, max_depth = 6, learning_rate = 0.2, subsample = 0.8, colsample_bytree = 0.6
+score : 0.9907291666666668
+
+XGB O Cross-Validation 2024-11-27 14:51:24
+params : n_estimators = 500, max_depth = 6, learning_rate = 0.2, subsample = 0.8, colsample_bytree = 0.6
+score : 0.9900583333333332

@@ -1,0 +1,85 @@
+
+
+SVM Cross-Validation 2024-11-25 23:37:57
+params : default
+score : 0.9377087030464359
+
+SVM GridSearch 2024-11-25 23:39:40
+params : {'C': 10, 'gamma': 0.01}
+score : 0.8405928442368379
+
+SVM GridSearch 2024-11-25 23:41:54
+params : {'C': 10, 'gamma': 0.01}
+score : 0.8405928442368379
+
+SVM GridSearch 2024-11-25 23:45:32
+params : {'C': 10, 'gamma': 'auto'}
+score : 0.9324007693652737
+
+SVM GridSearch 2024-11-25 23:57:52
+params : {'C': 1000, 'gamma': 0.0001, 'kernel': 'rbf'}
+score : 0.9406983127808447
+
+SVM GridSearch 2024-11-25 23:58:56
+params : {'C': 1000, 'gamma': 0.0001, 'kernel': 'rbf'}
+score : 0.9406983127808447
+
+SVM Cross-Validation 2024-11-25 23:59:50
+params : C = 1000, gamma = 0.001
+score : 0.9479118603963324
+
+SVC Cross-Validation 2024-11-26 00:10:47
+params : C = 1000, gamma = 0.001
+score : 0.950768818396924
+
+SVC Cross-Validation 2024-11-26 00:11:05
+params : C = 1000, gamma = 0.001
+score : 0.9479118603963324
+
+SVC Cross-Validation 2024-11-26 00:11:13
+params : C = 1000, gamma = 0.001
+score : 0.950768818396924
+
+SVC Cross-Validation 2024-11-26 00:11:20
+params : C = 1000, gamma = 0.001
+score : 0.950768818396924
+
+SVC Cross-Validation 2024-11-26 00:11:29
+params : C = 1000, gamma = 0.001
+score : 0.950768818396924
+
+SVC Cross-Validation 2024-11-26 00:11:38
+params : C = 1000, gamma = 0.001
+score : 0.950768818396924
+
+SVC Cross-Validation 2024-11-26 00:12:21
+params : C = 1000, gamma = 0.001
+score : 0.950768818396924
+
+Random Forest Cross-Validation 2024-11-26 00:14:17
+params : default
+score : 0.9319975598935226
+
+Random Forest GridSearch 2024-11-26 00:16:17
+params : {'max_depth': 20, 'n_estimators': 50}
+score : 0.9099577848275174
+
+SVC Cross-Validation 2024-11-26 22:00:46
+params : default
+score : 0.9377087030464359
+
+SVC Cross-Validation 2024-11-26 22:22:41
+params : C = 1000, gamma = 0.001
+score : 0.950768818396924
+
+SVC Cross-Validation 2024-11-26 22:23:18
+params : C = 1000, gamma = 0.001
+score : 0.950768818396924
+
+Random Forest Cross-Validation 2024-11-26 22:23:49
+params : default
+score : 0.9305011461106181
+
+Random Forest GridSearch 2024-11-26 22:25:21
+params : {'max_depth': 10, 'n_estimators': 200}
+score : 0.9109094441530182

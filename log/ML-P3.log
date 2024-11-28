@@ -1,0 +1,52 @@
+Linear Regression Cross-Validation 2024-11-18 00:02:13
+score : 201997.4353999665
+
+SVR Cross-Validation 2024-11-18 00:05:27
+score : 377264.41534902854
+
+SVR Cross-Validation 2024-11-18 00:06:55
+score : 377264.41534902854
+
+Linear Regression Cross-Validation 2024-11-18 00:06:55
+score : 201997.4353999665
+
+SVR Cross-Validation 2024-11-18 00:08:41
+score : 377264.41534902854
+
+Linear Regression Cross-Validation 2024-11-18 00:09:23
+score : 201997.4353999709
+
+Random Forest Cross-Validation 2024-11-18 00:11:15
+score : 127831.53113734738
+
+XGBoost Cross-Validation 2024-11-18 00:13:23
+score : 125191.62589996886
+
+XGBoost Grid Search 2024-11-18 00:17:09
+best_params : {'learning_rate': 0.1, 'max_depth': 7, 'n_estimators': 150}
+best_score : 126940.04603754189
+
+Random Forest Grid Search 2024-11-18 00:18:10
+best_params : {'max_depth': 7, 'n_estimators': 150}
+best_score : 153441.86386517592
+
+Random Forest Grid Search 2024-11-18 00:19:44
+best_params : {'max_depth': 13, 'n_estimators': 150}
+best_score : 133140.05763917963
+
+Random Forest Grid Search 2024-11-18 00:21:39
+best_params : {'max_depth': 50, 'n_estimators': 100}
+best_score : 131460.3856072457
+
+Random Forest Grid Search 2024-11-18 00:26:50
+best_params : {'max_depth': None, 'n_estimators': 250}
+best_score : 131548.84048793413
+
+Random Forest Cross-Validation 2024-11-18 18:37:32
+score : 128309.54470648049
+
+Random Forest Cross-Validation
+score : 128379.66130320562
+
+Random Forest Cross-Validation
+score : 128002.6173448776
